@@ -8,7 +8,6 @@ from board import Board
 
 
 #Abdulsamed Say (s1146476)
-#Ismail Vatansever (s1152889)
 
 def random_midgame(board: Board, game_n: int, plies: int, seed: int = 0) -> Board:
     rng = random.Random(seed)
